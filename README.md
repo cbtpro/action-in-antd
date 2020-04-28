@@ -1,3 +1,37 @@
+## 新建工程
+
+```shell
+# 在命令行执行npx命令使用最新版本的react脚手架来创建项目
+npx create-react-app antd-in-action
+```
+当显示下面的内容是，恭喜你，工程创建成功了！
+```shell
+Success! Created antd-in-action at /Users/peter/Developer/gitrepo/antd-in-action
+Inside that directory, you can run several commands:
+
+  yarn start
+    Starts the development server.
+
+  yarn build
+    Bundles the app into static files for production.
+
+  yarn test
+    Starts the test runner.
+
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd antd-in-action
+  yarn start
+
+Happy hacking!
+```
+
+## react脚手架操作手册
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
