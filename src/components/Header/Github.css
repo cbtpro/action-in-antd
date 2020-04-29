@@ -1,0 +1,28 @@
+#github-btn {
+    display: flex;
+    flex-flow: nowrap;
+    height: auto;
+}
+#github-btn .gh-btn {
+    height: auto;
+    padding: 1px 4px;
+    background: transparent;
+    border: 0;
+}  
+#github-btn .gh-btn .gh-ico {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+#github-btn .gh-btn .gh-text {
+    display: none;
+}
+#github-btn .gh-count {
+    height: auto;
+    padding: 4px 8px;
+    font-weight: normal;
+    background: #fff;
+}
+#github-btn .gh-count:hover {
+    color: orange;
+}

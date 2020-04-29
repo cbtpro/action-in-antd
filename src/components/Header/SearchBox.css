@@ -1,0 +1,26 @@
+#search-box { 
+  display: flex;
+  height: 22px;
+  margin: 0 auto 0 0 !important;
+  padding-left: 16px;
+  line-height: 22px;
+  white-space: nowrap;
+  border-left: 1px solid #f0f0f0;
+  transition: width 0.5s;
+}
+#search-box .anticon {
+  position: absolute;
+  z-index: 1;
+  color: #ced4d9;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+#search-box input {
+  width: 100%;
+  max-width: 200px;
+  padding-left: 20px;
+  font-size: 14px;
+  border: 0;
+  box-shadow: none;
+}
